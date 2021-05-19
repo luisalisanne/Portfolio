@@ -1,4 +1,14 @@
-// NAVBAR
+// CUSTOM BOOTSTRAP VARIABLES
+
+//BOOTSTRAP IMPORTS
+// This is where you can import other stylesheets or write your scss code
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// STYLES
+
+:root {
+  font-size: 62.5%;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
@@ -6,6 +16,3 @@
   font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
 }
-
-// This is where you can import other stylesheets or write your scss code
-@import "../../node_modules/bootstrap/scss/bootstrap";
