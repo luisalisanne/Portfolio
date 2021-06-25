@@ -12,3 +12,86 @@ h1 {
     color: blue;
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: lavender;
+}
+
+/* NAVBAR CUSTOM STYLE */
+/* END NAVBAR CUSTOM STYLE */
+
+/* ANIMATION LANDING PAGE */
+
+.img-wrapper {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid lime; */
+}
+
+.anim-img {
+  border-radius: 50%;
+  height: 100%;
+  position: absolute;
+}
+
+.anim {
+  animation: luisa 3s linear infinite alternate;
+}
+
+@keyframes luisa {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0.2;
+  }
+
+  30% {
+    opacity: 0.4;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  60% {
+    opacity: 1;
+  }
+}
+
+/* END ANIMATION LANDING PAGE */
+
+/* FOOTER CUSTOM STYLE */
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  list-style-type: none;
+}
+
+#instagram,
+#linkedin,
+#github {
+  background-image: url(./images/coclogo.jpeg);
+  background-size: cover;
+}
+/* END FOOTER CUSTOM STYLE */
