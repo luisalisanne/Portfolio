@@ -11,15 +11,14 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <title>Portfolio</title>
+    <title>Contact</title>
   </head>
   <body class="background">
     <!-- HEADER INCL. NAVBAR -->
-
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="#">
             <img
               src="images/coclogo.jpeg"
               alt=""
@@ -61,65 +60,71 @@
     </header>
 
     <!-- END HEADER -->
+    <!-- CONTACT FORM -->
 
-    <!-- HERO SECTION -->
     <main>
-      <section class="container mt-5 mx-auto">
-        <div class="row">
-          <div
-            class="
-              col-sm-12 col-md-6 col-lg-6
-              align-self-center
-              order-2
-              align-content-center
-            "
+      <section class="container mt-5 w-50">
+        <h5>
+          <a
+            href="mailto:some@email.com"
+            target="_blank"
+            class="btn btn-warning"
+            >Email me</a
           >
-            <h1>Hi! I'm Luisa.</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
-              eveniet cumque maiores in ex omnis, repellendus nostrum alias sint
-              tenetur. Quia, tenetur nisi deserunt harum illum ut quidem
-              quisquam eaque dolorum distinctio esse dolorem tempora neque
-              fugiat ea? Suscipit, commodi.
-            </p>
-
-            <a class="btn btn-outline-danger" href="#" role="button"
-              >check out my work</a
-            >
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-6 pb-4 mb-4 order-1 order-sm-2">
-            <div class="img-wrapper">
-              <img
-                class="anim-img"
-                src="images/luisa_start.png"
-                alt="Photo of Luisa with a pen in her hand."
-              />
-              <img
-                class="anim-img anim"
-                src="images/luisa_end.png"
-                alt="Drawing of the photo of Luisa with the pen in her hand."
-              />
-            </div>
-          </div>
+          or leave me a message here:
+        </h5>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input
+            type="name"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Name Surname"
+          />
         </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="number" class="form-label">Phone number (optional)</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="0123456789"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Message</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Hi Luisa, ..."
+          ></textarea>
+        </div>
+        <input class="btn btn-warning" type="submit" value="Submit" />
       </section>
     </main>
 
-    <!-- END HERO SECTION -->
+    <!-- END CONTACT FORM -->
 
     <footer>
-      <nav
-        class="navbar fixed-bottom navbar-light bg-light justify-content-center"
-      >
-        <ul class="container-fluid justify-content-center">
-          <li class="footer-icon" id="instagram">
-            <a href="#"></a>
-          </li>
-          <li class="footer-icon" id="github"><a href="#"></a></li>
-          <li class="footer-icon" id="linkedin"><a href="#"></a></li>
-        </ul>
-        <p>&copy; Luisa-Lisanne Forck // 2021</p>
+      <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="container-fluid">
+          <p>&copy; Luisa-Lisanne Forck // 2021</p>
+        </div>
       </nav>
     </footer>
 

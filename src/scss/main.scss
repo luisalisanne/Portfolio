@@ -1,11 +1,14 @@
-// NAVBAR
-
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
-
-* {
-  font-family: "Quicksand", sans-serif;
-  box-sizing: border-box;
-}
-
 // This is where you can import other stylesheets or write your scss code
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+h1 {
+  color: red;
+
+  @include media-breakpoint-up(sm) {
+    color: green;
+  }
+
+  @include media-breakpoint-up(md) {
+    color: blue;
+  }
+}
